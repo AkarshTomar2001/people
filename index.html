@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People Table</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header-container">
+    <div class="logo-and-marquee-container">
+      <div class="logo-container">
+        <img src="MiQ2 (1).webp" alt="Logo">
+      </div>
+      <div class="marquee-container">
+        <marquee direction="left" behavior="scroll" scrollamount="5">
+          Your future shaping programmatic media partner
+Deliver ad campaigns that redefine marketing success.
+
+Let’s reprogram performance for the planet, for the community, and for your audience.
+        </marquee>
+      </div>
+    </div>
+  </div>
+
+  <table id="peopleTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Place</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <div class="input-container">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <label for="place" style="margin-left: 10px;">Place:</label>
+    <input type="text" id="place" name="place">
+    <button onclick="addPerson()">Add</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
